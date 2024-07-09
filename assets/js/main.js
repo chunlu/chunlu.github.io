@@ -51,6 +51,7 @@
     '"If you can dream it, you can do it." - Walt Disney',
     '"Success is not final; failure is not fatal: it is the courage to continue that counts." - Winston Churchill',
     '"Our greatest glory is not in never falling, but in rising every time we fall." - Nelson Mandela',
+    '"Find a job you enjoy doing, and you will never have to work a day in your life." - Mark Twain',
   ];
   var randomQuote = Math.floor(Math.random() * quotes.length);
   document.getElementById("random-quote").innerHTML = quotes[randomQuote];
