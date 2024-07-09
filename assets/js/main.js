@@ -24,25 +24,28 @@
   });
 
   var greetings = [
-    "My name is Chun, I'm a software engineer, let's build something awesome!",
-    "My name is Chun, I'm a software engineer, let's build something awesome!",
-    "My name is Chun, I'm a software engineer, let's build something awesome!",
+    "I'm a software engineer, let's build something awesome together!",
     "Hope you brought your curiosity, because there's a lot to explore here!",
     "May your click be rewarded with exactly what you were searching for",
     "Just another day of wrestling code into existence. Glad you could join the chaos!",
+  ];
+  var randomGreeting = Math.floor(Math.random() * greetings.length);
+  document.getElementById("greeting-message").innerHTML =
+    greetings[randomGreeting];
+
+  var quotes = [
     '"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt',
     '"The only way to do great work is to love what you do." - Steve Jobs',
     '"Believe you can and you\'re halfway there." - Theodore Roosevelt',
-    '"Twenty years from now you will be more disappointed by the things that you didn\'t do than by the ones you did do. So throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.]" - Mark Twain',
+    '"Twenty years from now you will be more disappointed by the things that you didn\'t do than by the ones you did do. So throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover." - Mark Twain',
     '"You don\'t have to be great to start, but you have to start to be great." - Zig Ziglar',
     '"The important thing is not to stop questioning. Curiosity has its own reason for existing." - Albert Einstein',
     "\"I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.\" - Michael Jordan",
     '""You miss 100% of the shots you don\'t take" - Wayne Gretzky" - Michael Scott',
   ];
-  var randomNumber = Math.floor(Math.random() * greetings.length);
-  document.getElementById("greeting-message").innerHTML =
-    greetings[randomNumber];
-
+  
+  var randomQuote = Math.floor(Math.random() * quotes.length);
+  document.getElementById("random-quote").innerHTML = quotes[randomQuote];
   // Play initial animations on page load.
   $window.on("load", function () {
     window.setTimeout(function () {
