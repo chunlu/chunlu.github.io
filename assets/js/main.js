@@ -24,10 +24,12 @@
   });
 
   var greetings = [
-    "I'm a software engineer, let's build something awesome together!",
+    "Let's build something awesome together!",
     "Hope you brought your curiosity, because there's a lot to explore here!",
     "May your click be rewarded with exactly what you were searching for",
     "Just another day of wrestling code into existence. Glad you could join the chaos!",
+    "Building the next big thing? Let's see how I can help",
+    "Ready to debug the talent search? Let's explore my resume and see if we're a good fit",
   ];
   var randomGreeting = Math.floor(Math.random() * greetings.length);
   document.getElementById("greeting-message").innerHTML =
@@ -42,10 +44,17 @@
     '"The important thing is not to stop questioning. Curiosity has its own reason for existing." - Albert Einstein',
     "\"I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.\" - Michael Jordan",
     '""You miss 100% of the shots you don\'t take" - Wayne Gretzky" - Michael Scott',
+    '"The best way to get started is to quit talking and begin doing." - Walt Disney',
+    '"You may encounter many defeats but you must not be defeated." - Maya Angelou',
+    '"The only person you are destined to become is the person you decide to be." - Ralph Waldo Emerson',
+    '"Continuous learning is the minimum requirement for survival in our fast-changing world." - Alvin Toffler',
+    '"If you can dream it, you can do it." - Walt Disney',
+    '"Success is not final; failure is not fatal: it is the courage to continue that counts." - Winston Churchill',
+    '"Our greatest glory is not in never falling, but in rising every time we fall." - Nelson Mandela',
   ];
-  
   var randomQuote = Math.floor(Math.random() * quotes.length);
   document.getElementById("random-quote").innerHTML = quotes[randomQuote];
+
   // Play initial animations on page load.
   $window.on("load", function () {
     window.setTimeout(function () {
