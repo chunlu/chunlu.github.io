@@ -67,6 +67,7 @@
             skills and knowledge, allowing me to develop the skills to solve
             problems creatively and efficiently.
           </p>
+
           <h3 class="major">SD-WAN Network Automation</h3>
           <span class="image main"
             ><img src="images/network_automation.jpg" alt=""
@@ -81,34 +82,82 @@
             centralized control. It's a smarter way to connect your
             geographically spread locations.
           </blockquote>
-          <h3 class="major">Autonomous Unmanned Surface Vehicle</h3>
+
+          <h3 class="major">Unmanned Surface Vehicle</h3>
           <span class="image main"
             ><img src="images/autonomous_systems.jpg" alt=""
           /></span>
           <blockquote>
-            Autonomous Unmanned Surface Vehicles (AUSVs) navigate the seas
-            without a crew. These high-tech vessels rely on GPS, radar, and
+            Medium Displacement Unmanned Surface Vehicles (MDUSVs) navigate the
+            seas without a crew. These high-tech vessels rely on GPS, radar, and
             sensors to chart their course, making them ideal for long-duration
             missions. From collecting ocean data to assisting in search and
-            rescue, AUSVs offer a versatile and autonomous approach to tasks at
+            rescue, MDUSVs offer a versatile and autonomous approach to tasks at
             sea.
           </blockquote>
-          <h3 class="major">Digital Thread Additive Manufacturing</h3>
+          <p>
+            Extensive at-sea testing of MDUSVs is crucial for software
+            refinement and bug elimination. These tests generate vast amounts of
+            data logs (hundreds of gigabytes per event) from multiple sensor
+            systems, critical for understanding the automation's decision-making
+            process. However, not all data is valid or complete, and existing
+            tools hindered our data scientists' ability to efficiently remove
+            corrupt data and aggregate the valuable insights for analysis.
+          </p>
+          <p>
+            To address the challenge of processing massive datasets generated
+            during MDUSVs testing, I co-developed an internal suite of data
+            analysis software using Python and libraries like Pandas, NumPy, and
+            Matplotlib. This software tackles the inefficiency of existing tools
+            by ingesting data logs, intelligently removing corrupted entries,
+            and aggregating the cleaned data for streamlined analysis. It also
+            generates graphs and time series visualizations, empowering data
+            scientists to quickly identify periods of interest for further
+            investigation. This internal tool streamlines the data analysis
+            process, allowing data scientists to focus on extracting valuable
+            insights from the wealth of information collected during MDUSVs
+            testing. This experience highlights my ability to develop data
+            analysis solutions using Python and my understanding of the
+            challenges faced in big data processing.
+          </p>
+          <h3 class="major">Digital Thread</h3>
           <span class="image main"
             ><img src="images/digit_thread.jpg" alt=""
           /></span>
           <blockquote>
-            DTAM streamlines additive manufacturing (3D printing) by creating a
-            single, connected flow of data throughout the entire process. This
-            "digital thread" links design, modeling, printing, and even
-            post-production, ensuring everyone involved has access to the latest
-            information. This leads to improved efficiency, better quality
-            control, and a smoother workflow for complex 3D-printed parts. DTAM
-            allows manufacturers to trace materials, track progress, and
-            optimize production for a more robust and data-driven approach to
-            additive manufacturing.
+            Digital Thread Additive Manufacturing (DTAM) streamlines additive
+            manufacturing (3D printing) by creating a single, connected flow of
+            data throughout the entire process. This "digital thread" links
+            design, modeling, printing, and even post-production, ensuring
+            everyone involved has access to the latest information. This leads
+            to improved efficiency, better quality control, and a smoother
+            workflow for complex 3D-printed parts. DTAM allows manufacturers to
+            trace materials, track progress, and optimize production for a more
+            robust and data-driven approach to additive manufacturing.
           </blockquote>
-          <h3 class="major">Global Positioning and Navigation Systems</h3>
+          <p>
+            DTAM's system lacked a secure platform for collaboration and file
+            sharing, posing a challenge for authorized users working with 3D
+            components. Additionally, they encountered difficulties in packaging
+            specifications and 3D files into a single, unified PDF for easy
+            reference.
+          </p>
+          <p>
+            I helped design and develop a full-stack 3D file sharing website
+            using React, DRF, and Postgres. This platform allows authorized
+            users to share 3D files, along with corresponding part
+            specifications, facilitating collaboration and streamlined file
+            management. Furthermore, I championed the development of an
+            innovative feature: interactive 3D PDFs for component visualization.
+            These PDFs leverage custom LaTeX templates and embedded U3D models,
+            taking advantage of LaTeX's capabilities to generate dynamic 3D
+            content within the document, ultimately enhancing user experience
+            and accessibility. This experience honed my full-stack development
+            skills and solidified my passion for exploring new technologies to
+            enhance user experience.
+          </p>
+
+          <h3 class="major">Global Positioning and Navigation</h3>
           <span class="image main"><img src="images/gpns.png" alt="" /></span>
           <blockquote>
             Global Positioning and Navigation Systems (GPNS) rely on the NAVSTAR
@@ -118,6 +167,27 @@
             conducting research to ensure the system's functionality and explore
             future capabilities.
           </blockquote>
+          <p>
+            Satellite navigation systems rely on meticulous testing and data
+            analysis to guarantee accurate positioning. GPNS software plays a
+            crucial role in this process, facilitating the testing and
+            collection of satellite data. However, the validation workflow
+            involves running these data logs through third-party software,
+            significantly extending the process and incurring additional costs
+            associated with software licensing fees.
+          </p>
+          <p>
+            I joined a satellite testing software team for a three-month project
+            to implement real-time data analysis. Demonstrating quick mastery of
+            the system's C# and XML architecture, I leveraged navigation message
+            documentation to integrate this critical feature. This not only
+            eliminated post-processing of test log data, streamlining the
+            workflow, but also improved data precision by eliminating rounding
+            errors. This project provided a fantastic opportunity to rapidly
+            acquire new skills and deliver a lasting improvement to the
+            software's capabilities.
+          </p>
+
           <h3 class="major">LinkNYC</h3>
           <span class="image main"
             ><img src="images/linknyc.jpg" alt=""
@@ -131,6 +201,28 @@
             information. LinkNYC aims to bridge the digital divide and create a
             more connected, informed Big Apple.
           </blockquote>
+          <p>
+            LinkNYC kiosk installations grappled with a time-consuming hurdle:
+            paper-based inspections. These multi-step checks, including
+            pre-installation suitability assessments and post-installation
+            functionality verification, relied on physical paperwork at every
+            stage. This slowed down kiosk rollouts and repairs significantly.
+          </p>
+          <p>
+            I tackled this challenge head-on by co-developing an Android mobile
+            application using Java, MongoDB, and Mongoose. This app streamlined
+            the inspection process by digitizing forms and facilitating faster
+            data capture. My data management expertise also played a crucial
+            role. I queried LinkNYC data via REST APIs to populate the app and
+            transformed the information into user-friendly CSV formats for
+            easier management and updates. Furthermore, I created clear product
+            lifecycle diagrams using Microsoft Visio, ensuring efficient project
+            planning and execution. This project not only demonstrates my
+            technical skills in mobile app development and data management, but
+            also my ability to identify problems and contribute to efficient
+            project planning. Ultimately, this streamlined inspection process
+            led to faster kiosk deployments and a more efficient LinkNYC system.
+          </p>
         </article>
 
         <!-- Skills -->
